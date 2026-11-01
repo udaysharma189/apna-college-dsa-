@@ -13,3 +13,4 @@ int main(){
     }
 }
 // print subarray
+// time complexity is O(n^3) and space complexity is O(1)
