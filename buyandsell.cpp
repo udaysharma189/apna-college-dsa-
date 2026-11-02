@@ -16,4 +16,4 @@ int main() {
     }
     cout<< "max profit is: "<<maxprofit<<endl;
     return 0;
-}
+}// buy and sell stock problem
