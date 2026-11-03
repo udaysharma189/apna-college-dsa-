@@ -33,4 +33,4 @@ int main() {
     cout << "trapped water is: " << trappedwater << endl;
 
     return 0;
-}
+}// trapping water problem
