@@ -47,3 +47,4 @@ int main() {
 
     spiralMatrix(arr, 4, 4);
 }
+// spiral matrix problem
