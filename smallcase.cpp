@@ -1,21 +1,26 @@
-#include<iostream>
+#include <iostream>
+#include <cstring>
 using namespace std;
-void lowercase(char str[],int n) {
-    if(int i=0;i<n;i++){
-        if(str[i]<='a'&&str[i]>='z'){
-            continue; // Already lowercase, do nothing
-        } else{
-            str[i] = str[i] - 'A' + 'a'; // Convert to lowercase
+
+void lowercase(char str[], int n) {
+    for (int i = 0; i < n; i++) {
+        if (str[i] >= 'A' && str[i] <= 'Z') {
+            str[i] = str[i] - 'A' + 'a';
         }
     }
-    int main(){
-        int n;
-        cout<<"Enter the size of the string: ";
-        cin>>n;
-        char str[n];
-        cout<<"Enter the string: ";
-        for(int i=0;i<n;i++){
-            cin>>str[i];
-        }
-        lowercase(str,n);
-    }
+}
+
+int main() {
+    char str[100];
+
+    cout << "Enter the string: ";
+    cin.getline(str, 100);
+
+    int n = strlen(str);
+
+    lowercase(str, n);
+
+    cout << "Lowercase string: " << str << endl;
+
+    return 0;
+}
