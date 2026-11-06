@@ -15,4 +15,4 @@ int main(){
         end--;
     }
     cout<<"Reversed string: "<<str<<endl;
-}
+}// reverse char array
