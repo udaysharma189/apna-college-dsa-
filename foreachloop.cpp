@@ -7,6 +7,6 @@ int main(){
     //     cout<<str[i]<<endl;
     // } ya hai for loop sa 
     for(char c: str){
-        cout<<c<<endl;
+        cout<<c<<endl;// ye hai for each loop
     }
 }
