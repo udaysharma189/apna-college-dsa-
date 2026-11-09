@@ -17,4 +17,4 @@ int main(){
         end--;
     }
     cout<<"Palindrome"<<endl;
-}
+}// valid palindrome 
