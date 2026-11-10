@@ -6,7 +6,7 @@ void setIthBit(int n, int i){
     if(result==0)
         cout<<"The "<<i<<"th bit is set to 1"<<endl;
     else
-        cout<<"The "<<i<<"th bit is already to 1"<<endl;
+        cout<<"The "<<i<<"th bit is already set to 1"<<endl;
 }
 int main(){
     int n, i;
