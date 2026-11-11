@@ -17,7 +17,7 @@ class Student{
         cgpa=c;
     }
     //getter
-    string getname(){
+   string getname(){
         return name;
     }
     float getcgpa(){
@@ -34,4 +34,4 @@ int main(){
     cout<<"Percentage: ";
     s1.getpercentage();
     return 0;
-}
+}// getter and setter are used to access the private data members of the class.
