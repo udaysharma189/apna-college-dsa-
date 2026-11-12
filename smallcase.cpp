@@ -23,4 +23,4 @@ int main() {
     cout << "Lowercase string: " << str << endl;
 
     return 0;
-}
+}// smallcase 
