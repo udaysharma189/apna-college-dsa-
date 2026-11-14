@@ -17,7 +17,6 @@ void binString(int n, int lastPlace, string ans) {
 }
 
 int main() {
-    // Example call:
     string ans = "";
      binString(3, 0, ans);
 
