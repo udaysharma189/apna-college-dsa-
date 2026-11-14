@@ -12,4 +12,4 @@ int main(){
     cin>>n;
     cout<<"Factorial of "<<n<<" is: "<<factorial(n)<<endl;
     return 0;
-}
+}// factorial
