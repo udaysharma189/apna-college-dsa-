@@ -24,3 +24,4 @@ int main() {
 
     return 0;
 }
+// ya class ka hai simipal function ka bhi hai 
