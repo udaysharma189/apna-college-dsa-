@@ -31,6 +31,7 @@ int main() {
 
     Square s1;
     s1.draw();
-
+    // shape s2;
+    // s2.draw is not possible because this is a abstructed class 
     return 0;
 }
